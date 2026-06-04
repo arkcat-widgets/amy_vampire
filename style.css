@@ -19,11 +19,7 @@ body {
   transform: translate(-50%, -50%) scaleX(-1);
 }
 
-/* Un-flip text when widget is flipped */
-#bee-widget.flip-enabled .goalData {
-  transform: scaleX(-1);
-}
-
+/* Flip the text path SVG when widget is flipped so text comes from left */
 #bee-widget.flip-enabled .bee-path-text {
   transform: scaleX(-1);
 }
